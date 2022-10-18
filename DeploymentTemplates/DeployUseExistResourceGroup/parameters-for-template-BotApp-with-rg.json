@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServiceName": {
+      "value": "InfinionApp"
+    },
+    "existingAppServicePlanName": {
+      "value": ""
+    },
+    "existingAppServicePlanLocation": {
+      "value": ""
+    },
+    "newAppServicePlanName": {
+      "value": "InfinionApp1"
+    },
+    "newAppServicePlanLocation": {
+      "value": "uksouth"
+    },
+    "newAppServicePlanSku": {
+      "value": {
+        "name": "S1",
+        "tier": "Standard",
+        "size": "S1",
+        "family": "S",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": "cc104682-eac4-4041-b0cb-1212f99cc46e"
+    },
+    "appSecret": {
+      "value": "#1234567890"
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}

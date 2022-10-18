@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "UCXvlmJJKX55W0c48QGKgkGxMed6iPqn/X7p/2TvCQ8=",
+  "Source": "TimeBot",
+  "BasePath": "_content/TimeBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TimeBot\\wwwroot",
+      "Source": "TimeBot",
+      "ContentRoot": "C:\\Users\\Glodaris\\implementBot\\TimeBot\\wwwroot\\",
+      "BasePath": "_content/TimeBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Glodaris\\implementBot\\TimeBot\\wwwroot\\default.html",
+      "SourceId": "TimeBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Glodaris\\implementBot\\TimeBot\\wwwroot\\",
+      "BasePath": "_content/TimeBot",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.html"
+    }
+  ]
+}
